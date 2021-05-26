@@ -7,7 +7,8 @@ A small search engine developed in react gifs that connects to the ghiphy api
 npm install
 ```
 
-##To run the proyectu
+##To run the proyect
+
 
 ```javascript
 npm start or npm run start
