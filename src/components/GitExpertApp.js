@@ -3,7 +3,7 @@ import AddCategory from "./AddCategory";
 import GridGifs from "./GridGifs";
 
 const GitExpertApp = () => {
-  const [categories, setCategories] = useState(["cheeseburger"]);
+  const [categories, setCategories] = useState(["Elite"]);
   //crear una grilla por cada cateroria
   // const handleCategorie = (e) => {
   //   let cate = prompt("Agrega otra categoria");
@@ -12,8 +12,8 @@ const GitExpertApp = () => {
 
   return (
     <div>
-      <h2>Git Expert App</h2>
-      <h4>Agregar una categoria</h4>
+      <h2>Gif Expert App</h2>
+
       <AddCategory setCategories={setCategories} />
       <hr />
       <main>
