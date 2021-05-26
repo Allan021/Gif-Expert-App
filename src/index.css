@@ -35,3 +35,63 @@ input {
   font-size: 1.2rem;
   color: #222;
 }
+hr {
+  width: 80%;
+  margin: 1rem auto;
+  border: thin solid #777;
+}
+
+.grid-gif {
+  max-width: 90%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.grid-gif img {
+  width: 100%;
+  min-height: 200px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-gif p {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.grid-gif article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: thin solid #111;
+  padding-top: 0;
+}
+
+.grid-gif article img {
+  border-bottom: thin solid #111;
+}
+
+main .title {
+  font-size: 1.2rem;
+  margin-left: 5%;
+  margin-bottom: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-wrap: nowrap;
+  justify-content: start;
+}
+.loader-container {
+  display: block;
+  margin: 1rem auto;
+}

@@ -14,7 +14,7 @@ const AddCategory = ({ setCategories }) => {
     //si la bisqeuda realizada es mayor que 2
     //actualizare la lista de categorias con el estado de ,o aplicacion mi pana y esto mediante esta callback que recibe el estado y asi me evito pasa r la categora
     if (busqueda.length > 2) {
-      setCategories((cate) => [...cate, busqueda]);
+      setCategories((cate) => [busqueda,...cate]);
       setBusqueda("");
     }
   };
